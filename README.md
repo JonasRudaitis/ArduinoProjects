@@ -18,6 +18,7 @@ A 4x4x3 LED matrix where each LED can be individually controlled to create uniqu
 How it works:
 Each "floor" (z level) the anode of the LEDs are connected. 
 Each collumn's cathodes are soldered together. 
+
 To turn on led (1,1,1), you would:
 ```
 // Turn off ALL LEDs

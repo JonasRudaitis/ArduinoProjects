@@ -40,3 +40,10 @@ digitalWrite(floors[1], LOW);   // This sets the floor to act as ground, allowin
 <video controls src="./LEDMatrix/img/matrix.MOV" title="Title"></video>
 
 Diagonal program running on the matrix
+
+## Marble Maze
+This project is a tilting marble maze where the maze tilts to move a marble to a goal. The tilt is controlled by two servo motors, receiving input from a joystick. 
+
+7 LEDS (4 on x, 3 on y) also are controlled as a visual feedback to the tilt: 
+- if the maze is balanced, only the middle LEDs will be ON
+- if the maze is tilted, only the LEDs in the direction of the tilt will be ON.
